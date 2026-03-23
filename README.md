@@ -5,7 +5,6 @@
 Built for **comma_hack 6**, this project transforms the Comma Body v2 into an intelligent office companion. By leveraging the **Comma Four**'s triple-camera setup and offloading heavy VLM (Vision Language Model) reasoning to an **eGPU**, the assistant can navigate complex office environments without pre-built maps or LIDAR.
 
 
-
 ##  How It Works
 
 The system operates on a hybrid architecture that splits high-level reasoning from low-level control:
@@ -26,7 +25,6 @@ The system operates on a hybrid architecture that splits high-level reasoning fr
 -   **Robotics**: Cereal (Messaging), BodyJim (Body Interface).
 -   **AI**: Gemini API (Scene Analysis), VLM (Zero-shot Detection).
 
----
 
 ##  Installation
 
@@ -53,12 +51,14 @@ The dashboard provides a mission selector and real-time monitoring.
 # Install dependencies
 npm install
 
+# add .Env file in root folder 
+ with AI key
+
 # Start the development server
 npm run dev
 ```
 
 The dashboard will be available at `http://localhost:3000`.
-
 
 ## Dashboard Features
 
@@ -67,8 +67,6 @@ The dashboard will be available at `http://localhost:3000`.
 -   **Scene Analysis**: Click the CPU icon to get a natural language description of the office via Gemini.
 -   **Voice Mode**: Toggle robotic speech feedback.
 -   **Hardware Telemetry**: Monitor battery, balancing state, and camera health.
-
----
 
 ##  Contributing
 
