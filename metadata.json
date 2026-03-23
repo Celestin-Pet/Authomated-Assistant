@@ -1,0 +1,5 @@
+{
+  "name": "Automated Office Assistant",
+  "description": "A zero-map, vision-based indoor navigation system for Comma Body v2 using Comma Four and eGPU.",
+  "requestFramePermissions": ["camera"]
+}
