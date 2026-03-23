@@ -1,12 +1,12 @@
-# 🤖 Automated Office Assistant
+#  Automated Office Assistant
 
 **A Zero-Map, Vision-Based Indoor Navigation System for Comma Body v2.**
 
 Built for **comma_hack 6**, this project transforms the Comma Body v2 into an intelligent office companion. By leveraging the **Comma Four**'s triple-camera setup and offloading heavy VLM (Vision Language Model) reasoning to an **eGPU**, the assistant can navigate complex office environments without pre-built maps or LIDAR.
 
----
 
-## 🚀 How It Works
+
+##  How It Works
 
 The system operates on a hybrid architecture that splits high-level reasoning from low-level control:
 
@@ -16,9 +16,9 @@ The system operates on a hybrid architecture that splits high-level reasoning fr
 4.  **Gemini Scene Analysis**: High-level scene understanding is provided by Gemini, allowing the robot to describe its surroundings, identify obstacles, and report on environmental conditions.
 5.  **Voice Interaction**: The robot uses Text-to-Speech (TTS) to announce its missions and share its "thoughts" with humans in the office.
 
----
 
-## 🛠️ Tech Stack
+
+##  Tech Stack
 
 -   **Languages**: Python (Robot Control), TypeScript (Web Dashboard), JavaScript (Server).
 -   **Hardware**: Comma Four, Comma Body v2, External GPU (eGPU).
@@ -28,7 +28,7 @@ The system operates on a hybrid architecture that splits high-level reasoning fr
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Robot Setup (Comma Four)
 
@@ -59,9 +59,8 @@ npm run dev
 
 The dashboard will be available at `http://localhost:3000`.
 
----
 
-## 🖥️ Dashboard Features
+## Dashboard Features
 
 -   **Mission Selector**: Trigger specific tasks (e.g., "Find Judge").
 -   **Live AI Logs**: Watch the VLM's reasoning process in real-time.
@@ -71,7 +70,7 @@ The dashboard will be available at `http://localhost:3000`.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions to improve the VLM accuracy, PID tuning, or dashboard UI! 
 
@@ -79,6 +78,5 @@ If you wish to contribute or have any questions, please reach out:
 
 **Email**: [celestin.np@gmail.com](mailto:celestin.np@gmail.com)
 
----
 
 *Built with ❤️ for the Comma.ai community.*
